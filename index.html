@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nora a Especialista Na Hora</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #EDEDED;
+    }
+    
+    .chat-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    }
+
+    .header {
+      background-color: #075E54;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header h1 {
+      font-size: 18px;
+      margin: 0;
+      padding-left: 10px;
+    }
+
+    iframe {
+      flex-grow: 1;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="header">
+    <h1>Nora a Especialista Na Hora</h1>
+  </div>
+  
+  <iframe id="botFrameworkChatIframe" src='https://webchat.botframework.com/embed/NoraBCTT_5?s=3ipvNdVPijU.jc4dGZxeneSHGk9ZeFu28n1x7vi45RbPr9sfBiCxykk' style='height: 500px;'></iframe>
+  
+  <!-- Rodapé personalizado removido -->
+
+</div>
+
+<!-- JavaScript para enviar mensagens removido, já que vamos usar apenas a funcionalidade do iframe -->
+
+</body>
+</html>
